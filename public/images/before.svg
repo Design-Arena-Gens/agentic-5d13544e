@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="10%" y1="5%" x2="85%" y2="95%">
+      <stop offset="0%" stop-color="#030611"/>
+      <stop offset="60%" stop-color="#0f1937"/>
+      <stop offset="100%" stop-color="#02030a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="55%" y2="70%">
+      <stop offset="0%" stop-color="#4860d9" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1e2c5e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="520" cy="280" r="320" fill="url(#glow)"/>
+  <g fill="#0b142c">
+    <path d="M0 700 L180 620 L260 640 L380 580 L520 640 L640 610 L780 650 L920 600 L1040 630 L1180 610 L1320 670 L1460 640 L1600 680 L1600 900 L0 900 Z"/>
+    <path d="M0 770 L120 750 L200 780 L340 720 L470 780 L620 760 L780 800 L930 780 L1100 800 L1260 780 L1440 820 L1600 790 L1600 900 L0 900 Z" opacity="0.6"/>
+    <path d="M0 840 L120 820 L240 850 L360 830 L500 850 L680 830 L840 860 L1000 840 L1180 870 L1380 830 L1600 870 L1600 900 L0 900 Z" opacity="0.35"/>
+  </g>
+</svg>
